@@ -206,10 +206,6 @@ if not (scores[last_arg] == nil) then
 end
 }
 
-% uncomment if the full score is in landscape format
-%\ifprintreport
-%\geometry{landscape,outer=127mm}
-%\fi
 
 \@ifundefined{lypdfname}{%
   \templatefalse
@@ -290,12 +286,6 @@ This edition has been compiled and checked with utmost diligence. Nevertheless, 
 \bigskip
 \textit{Salzburg, February 2021\\
 Wolfgang Esser-Skala}
-
-\cleardoublepage
-\chapter*{Contents.}
-
-\InputIfFileExists{../out/lilypond.toc}{}{\InputIfFileExists{../lilypond.toc}{}{}}
-
 
 \cleardoublepage
 \fi
