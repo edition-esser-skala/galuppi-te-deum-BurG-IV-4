@@ -103,7 +103,8 @@ OboeII = {
 		gis'8 e h' gis a4
 		cis, h h \noBreak %110
 		cis2.\fermata \bar "||"
-		\time 4/4 \tempoTeErgo r2 fis4 fis8 fis \noBreak
+		\time 4/4 \tempoTeErgo \newSpacingSection
+			r2 fis4 fis8 fis \noBreak
 		e h g e e4 r
 		e'4. e8 e4. e8
 		dis dis h fis dis4 r %115

@@ -115,7 +115,8 @@ ViolinoI = {
 		gis e h' gis a cis,
 		<a' cis, e,>4 <gis h, e,> q \noBreak %110
 		<a cis, e,>2.\fermata \bar "||"
-		\time 4/4 \tempoTeErgo a8-! fis-! dis-! c!-! h dis fis a \noBreak
+		\time 4/4 \tempoTeErgo \newSpacingSection
+			a8-! fis-! dis-! c!-! h dis fis a \noBreak
 		g e h g e e'16. fis32 g8 a16. h32
 		a8 a, a a' ais ais, ais ais'
 		h fis dis h h, h h h %115

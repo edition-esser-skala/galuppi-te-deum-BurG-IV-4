@@ -102,7 +102,8 @@ OboeI = {
 		gis8 e h' gis a4~
 		a gis gis \pd \noBreak %110
 		a2.\fermata \bar "||"
-		\time 4/4 \tempoTeErgo r2 a4 a8 a \noBreak
+		\time 4/4 \tempoTeErgo \newSpacingSection
+			r2 a4 a8 a \noBreak
 		g e h g \pao e4 r
 		a'4. a8 ais4. ais8
 		h fis dis h fis4 r %115

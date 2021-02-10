@@ -115,7 +115,8 @@ Viola = {
 		e2 e4~
 		e e e \noBreak %110
 		cis2.\fermata \bar "||"
-		\time 4/4 \tempoTeErgo r2 fis4 fis8 fis \noBreak
+		\time 4/4 \tempoTeErgo \newSpacingSection
+			r2 fis4 fis8 fis \noBreak
 		h,4. h8 h4 h8 h
 		e4 a8 a g4. e8
 		fis4 fis dis8 h h h %115
