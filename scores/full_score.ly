@@ -18,9 +18,22 @@
 		\score {
 			<<
 				\new StaffGroup <<
+					\new GrandStaff <<
+						\set GrandStaff.instrumentName = "Oboe"
+						\new Staff {
+							\set Staff.instrumentName = "I"
+							\OboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "II"
+							\OboeII
+						}
+					>>
+				>>
+				\new StaffGroup <<
 					\new Staff <<
 						\set Staff.instrumentName = \markup \center-column { "Corno I, II" "in D" }
-						% \transpose c d
+						\transpose d c
 						\partCombine \CornoI \CornoII
 					>>
 				>>
@@ -82,7 +95,7 @@
 				\new FiguredBass { \BassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 120 }
 		}
 	}
 }

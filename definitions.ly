@@ -672,6 +672,8 @@ tocLabelLong = #(define-music-function
 
 
 tempoTeDeum = \tempoMarkup "Spiritoso"
+tempoTeErgo = \tempoMarkup "Largo"
+tempoAeterna = \tempoMarkup "[Allegro]"
 
 
 \include "notes/ob1.ly"
