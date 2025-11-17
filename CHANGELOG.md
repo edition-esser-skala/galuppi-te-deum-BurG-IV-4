@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.1.0 – 2025-11-17
+
+### Changed
+
+- changed the license to CC BY-SA 4.0
+
+
 ## 2.0.0 - 2021-12-05
 
 ### Changed
